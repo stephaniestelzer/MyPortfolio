@@ -116,8 +116,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Technical Director Intern",
+    company_name: "Paramount Feature Animation",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
