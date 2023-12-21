@@ -10,7 +10,7 @@ const Hero = () => {
       >
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            <span className="font-bold">Stephanie Stelzer</span>
+            Stephanie Stelzer
           </h1>
           <p className={`${styles.heroSubText} mt-2`}>
             using art and technology to create meaningful experiences.
