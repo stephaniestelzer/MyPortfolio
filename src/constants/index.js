@@ -27,16 +27,16 @@ import {
 
 export const navLinks = [
   {
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "portfolio",
+    title: "Portfolio",
+  },
+  {
     id: "about",
     title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
   },
 ];
 

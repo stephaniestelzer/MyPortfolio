@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdMailOutline } from "react-icons/md";
+
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -29,12 +33,31 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20`}
+      } w-full flex items-center py-5 fixed top-0 z-20 bg-white shadow-md`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+
+        <ul className='list-none hidden sm:flex flex-row gap-10 items-center justify-start'>
+          <li >
+            <a href="https://github.com/stephaniestelzer" target="_blank">
+              <FaGithub fill="black" size={"2em"} />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/stephanie-stelzeruf/" target="_blank">
+              <FaLinkedinIn fill="black" size={"2em"}/>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <MdMailOutline fill="black" size={"2em"}/>
+            </a>
+          </li>
+        </ul>
+
         <Link
           to='/'
-          className='flex items-center gap-2'
+          className='flex justify-center items-center gap-2'
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
@@ -45,7 +68,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-5 items-center'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -90,6 +113,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+
       </div>
     </nav>
   );
