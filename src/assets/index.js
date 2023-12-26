@@ -20,11 +20,20 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import jira from "./tech/jira.png"
+import kotlin from "./tech/kotlin.png"
+import maya from "./tech/maya.svg"
+import monday from "./tech/monday.svg"
+import python from "./tech/python.svg"
+import usd from "./tech/usd.svg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import paramount from "./company/paramount.svg"
+import target from "./company/target.svg"
+import theAgency from "./company/theAgency.svg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +68,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  jira,
+  kotlin,
+  maya,
+  monday,
+  python,
+  usd,
+  paramount,
+  target,
+  theAgency,
 };

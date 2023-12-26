@@ -23,6 +23,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  jira,
+  kotlin,
+  maya,
+  monday,
+  python,
+  usd,
+  paramount,
+  target,
+  theAgency,
 } from "../assets";
 
 export const navLinks = [
@@ -169,6 +178,93 @@ const experiences = [
   },
 ];
 
+const experienceCards = [
+  {
+    companyName: "Paramount Animation",
+    title: "Technical Director Intern",
+    icon: paramount,
+    techStack: [
+      {
+        name: "maya",
+        icon: maya,
+      },
+      {
+        name: "usd",
+        icon: usd,
+      },
+      {
+        name: "python",
+        icon: python,
+      },
+      {
+        name: "jira",
+        icon: jira,
+      },
+    ],
+    description: "Created tools for artists and helped to develop an efficient and organized production pipeline.",
+  },
+  {
+    companyName: "The Agency at UF",
+    title: "Developer Dept. Manager and Full-Stack Developer",
+    icon: theAgency,
+    techStack: [
+      {
+        name: "monday",
+        icon: monday,
+      },
+      {
+        name: "html",
+        icon: html,
+      },
+      {
+        name: "css",
+        icon: css,
+      },
+      {
+        name: "react",
+        icon: reactjs,
+      },
+      {
+        name: "mongoDB",
+        icon: mongodb,
+      },
+      {
+        name: "javascript",
+        icon: javascript,
+      },
+      {
+        name: "figma",
+        icon: figma,
+      },
+    ],
+    description: "Collaborated with an interdisciplinary team to make creative ideas come to life.",
+  },
+  {
+    companyName: "Target",
+    title: "Software Engineering Intern",
+    icon: target,
+    techStack: [
+      {
+        name: "docker",
+        icon: docker,
+      },
+      {
+        name: "mongodb",
+        icon: mongodb,
+      },
+      {
+        name: "jira",
+        icon: jira,
+      },
+      {
+        name: "kotlin",
+        icon: kotlin,
+      },
+    ],
+    description: "Built a microservice that logged changes within internal target software.",
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -262,4 +358,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, experienceCards };

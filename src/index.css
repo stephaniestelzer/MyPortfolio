@@ -10,7 +10,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 .hash-span {
@@ -112,6 +112,59 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.tech-icon {
+  border-radius: 1.4375rem;
+  background: #E4E2ED;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 5.4495rem;
+  height: 5.42944rem;
+  flex-shrink: 0;
+}
+
+.tech-icon-img {
+  padding-right: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.tech-icon-subtext {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.description-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.company-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.position-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* canvas- styles */

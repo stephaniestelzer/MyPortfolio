@@ -8,6 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import Experience2 from './Experience2';
+import TechIcon from './TechIcon';
 
 
 export {
@@ -15,7 +17,9 @@ export {
   Navbar,
   About,
   Tech,
+  TechIcon,
   Experience,
+  Experience2,
   Works,
   Feedbacks,
   Contact,

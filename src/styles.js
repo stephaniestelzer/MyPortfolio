@@ -11,6 +11,8 @@ const styles = {
     "text-black font-inter font-semibold md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
     "sm:text-[18px] text-black text-[14px] text-secondary uppercase tracking-wider",
+  experienceSubText:
+    "sm:text-[20px] text-semibold text-[14px] tracking-wider",
 };
 
 export { styles };
