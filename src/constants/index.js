@@ -169,6 +169,7 @@ const experienceCards = [
     companyName: "Paramount Animation",
     title: "Technical Director Intern",
     icon: paramount,
+    link: "/paramount",
     techStack: [
       {
         name: "maya",
@@ -193,6 +194,7 @@ const experienceCards = [
     companyName: "The Agency at UF",
     title: "Developer Dept. Manager and Full-Stack Developer",
     icon: theAgency,
+    link: "/theAgency",
     techStack: [
       {
         name: "monday",
@@ -229,6 +231,7 @@ const experienceCards = [
     companyName: "Target",
     title: "Software Engineering Intern",
     icon: target,
+    link: "/target",
     techStack: [
       {
         name: "docker",

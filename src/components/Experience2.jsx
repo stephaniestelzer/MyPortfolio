@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { GoArrowRight } from "react-icons/go";
 import { motion } from "framer-motion";
 
@@ -15,6 +16,7 @@ const ExperienceCard = ( {
   companyName,
   title,
   icon,
+  link,
   techStack,
   description,
 } ) => {
@@ -41,7 +43,7 @@ const ExperienceCard = ( {
           ))}
         </div>
         <div className="flex items-center justify-end pt-10 description-text">
-          <p className="mr-2">learn more</p>
+          <Link to={`${link}`} className="mr-2">learn more</Link>
           <GoArrowRight />
         </div>
       </div>
