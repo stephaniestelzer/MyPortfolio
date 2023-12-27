@@ -116,15 +116,14 @@
 
 .tech-icon {
   border-radius: 1.4375rem;
-  background: #E4E2ED;
+  background: rgba(228, 226, 237, 0.72);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 5.4495rem;
-  height: 5.42944rem;
+  width: 4.875rem;
+  height: 4.875rem;
   flex-shrink: 0;
 }
 
 .tech-icon-img {
-  padding-right: 5%;
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -143,7 +142,7 @@
 .description-text {
   color: #000;
   font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -152,7 +151,7 @@
 .company-title {
   color: #000;
   font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -161,9 +160,18 @@
 .position-title {
   color: #000;
   font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 400;
+  line-height: normal;
+}
+
+.about-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
   line-height: normal;
 }
 

@@ -1,8 +1,6 @@
 import {
   mobile,
-  backend,
   creator,
-  web,
   javascript,
   typescript,
   html,
@@ -15,10 +13,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -51,16 +45,8 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "React Native Developer",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
   {
     title: "Content Creator",
@@ -127,7 +113,7 @@ const experiences = [
   {
     title: "Technical Director Intern",
     company_name: "Paramount Feature Animation",
-    icon: starbucks,
+    icon: target,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -140,7 +126,7 @@ const experiences = [
   {
     title: "React Native Developer",
     company_name: "Tesla",
-    icon: tesla,
+    icon: target,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -153,7 +139,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Shopify",
-    icon: shopify,
+    icon: target,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -166,7 +152,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: target,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [

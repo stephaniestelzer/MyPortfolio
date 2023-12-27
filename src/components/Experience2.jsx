@@ -19,11 +19,11 @@ const ExperienceCard = ( {
   description,
 } ) => {
   return (
-    <div className="grid grid-cols-2 gap-4 w-full py-8">
+    <motion.div className="grid grid-cols-2 gap-4 w-full py-8">
       <div>
-        <div className="flex pb-7">
+        <div className="flex pb-4">
           {/* Company and description */}
-          <img className="tech-icon-img" src={icon}/>
+          <img className="tech-icon-img pr-4" src={icon}/>
           <div>
             <h1 className="company-title mt-2">{companyName}</h1>
             <h1 className="position-title mt-2">{title}</h1>
@@ -45,7 +45,7 @@ const ExperienceCard = ( {
           <GoArrowRight />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

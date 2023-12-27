@@ -1,11 +1,10 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import Headshot from "./Headshot.jpeg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -27,10 +26,6 @@ import monday from "./tech/monday.svg"
 import python from "./tech/python.svg"
 import usd from "./tech/usd.svg"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import paramount from "./company/paramount.svg"
 import target from "./company/target.svg"
 import theAgency from "./company/theAgency.svg"
@@ -41,10 +36,8 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
   creator,
   mobile,
-  web,
   github,
   menu,
   close,
@@ -61,10 +54,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
@@ -77,4 +66,5 @@ export {
   paramount,
   target,
   theAgency,
+  Headshot,
 };

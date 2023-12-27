@@ -1,63 +1,61 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
-      >
-        <img
-          src={icon}
-          alt='web-development'
-          className='w-16 h-16 object-contain'
-        />
-
-        <h3 className='text-white text-[20px] font-bold text-center'>
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
+import {Headshot} from "../assets";
 
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      <div class="flex justify-center items-center text-black text-[50px] font-bold pb-10">About Me</div>
+      <div className="grid grid-cols-2 gap-4 w-full py-8">
+        <motion.div variants={textVariant()} className="flex items-center justify-center">
+          <img src={`${Headshot}`} />
+        </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        <motion.div
+          variants={fadeIn("", "", 0.1, 1)}
+          className='about-text max-w-3xl leading-[30px] '
+        >
+          <p>
+            Welcome!
+          </p>
+          <br />
+          <p>
+            I am a recent graduate of the University of Florida, where I earned my Bachelor of Science in Digital 
+            Arts and Sciences Engineering. 
+          </p>
+          <br />
+          <p>
+            My degree is a core computer science curriculum, with a special emphasis on human-computer interaction and digital media.
+          </p>
+          <br />
+          <p>
+            So far, I have been a...
+          </p>
+          <br />
+          <p>
+            <span className="pink-text-gradient text-[18px] font-bold cursor-pointer">Technical Director Intern</span> at <a className="underline" href="http://www.paramountanimation.com/" >Paramount Animation</a>
+            <br />
+          </p>
+          <br />
+          <p>
+            <span className="pink-text-gradient text-[18px] font-bold cursor-pointer">Developer Department Manager</span> at <a className="underline" href="https://theagency.jou.ufl.edu/" >The Agency at UF</a>
+            <br />
+          </p>
+          <br />
+          <p>
+            <span className="pink-text-gradient text-[18px] font-bold cursor-pointer">Software Engineering Intern</span> at <a className="underline" href="https://tech.target.com/" >Target</a>
+            <br />
+          </p>
+          <br />
+          <p>
+            I have a deep desire to use both art and technology to create meaningful experiences, and I strive to bring this passion into everything I do.
+          </p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+        </motion.div>
       </div>
     </>
   );
