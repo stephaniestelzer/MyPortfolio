@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { GoArrowRight } from "react-icons/go";
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -43,9 +40,10 @@ const ExperienceCard = ( {
             </div>
           ))}
         </div>
-        <div class="text-right pt-10 description-text">
-          <p class="inline">learn more...</p>
-      </div>
+        <div className="flex items-center justify-end pt-10 description-text">
+          <p className="mr-2">learn more</p>
+          <GoArrowRight />
+        </div>
       </div>
     </div>
   );

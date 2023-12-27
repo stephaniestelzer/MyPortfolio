@@ -1,23 +1,25 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { About, Contact, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Experience2, TechIcon } from "./components";
+import { Contact, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Experience2, TechIcon } from "./components";
+import  About from "./pages/About";
+import  Home from "./pages/Home";
+
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <Router>
+      <Routes>
+        <Route index element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/portfolio' element={<About />}/>
+        <Route path='/experience' element={<Experience2 />}/>
+      </Routes>
       <div className='relative z-0 bg-primary'>
         <div>
           <Navbar />
-          <Hero />
-        </div>
-        <Experience2 />
-        <Works />
-        <div className='relative z-0'>
-          <Contact />
-          <StarsCanvas />
         </div>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
