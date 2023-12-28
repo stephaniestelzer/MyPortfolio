@@ -9,7 +9,7 @@ import {Headshot} from "../assets";
 const About = () => {
   return (
     <>
-      <div class="flex justify-center items-center text-black text-[50px] font-bold pb-10">About Me</div>
+      <div className="flex justify-center items-center text-black text-[50px] font-bold pb-10">About Me</div>
       <div className="grid grid-cols-2 gap-4 w-full py-8">
         <motion.div variants={textVariant()} className="flex items-center justify-center">
           <img src={`${Headshot}`} />

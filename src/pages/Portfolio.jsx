@@ -7,12 +7,14 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
+import Works from "../components/Works";
+
 
 const Portfolio = () => {
   return (
     <>
       <div className='mt-20 flex flex-wrap gap-10'>
-        Portfolio Page
+        <Works />
       </div>
     </>
   );

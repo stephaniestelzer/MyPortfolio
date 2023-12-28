@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experienceCards } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import TechIcon from "./TechIcon";
 
 const ExperienceCard = ( {
@@ -21,7 +21,7 @@ const ExperienceCard = ( {
   description,
 } ) => {
   return (
-    <motion.div className="grid grid-cols-2 gap-4 w-full py-8">
+    <motion.div variants={fadeIn()} className="grid grid-cols-2 gap-4 w-full py-8">
       <div>
         <div className="flex pb-4">
           {/* Company and description */}
@@ -54,14 +54,13 @@ const ExperienceCard = ( {
 const Experience2 = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={fadeIn()}>
           <h2 className={`${styles.sectionHeadText} text-left`}>
             Experience
           </h2>
       </motion.div>
       <div>
         {experienceCards.map((experienceCard, index) => (
-          // Return the ExperienceCard component
           <ExperienceCard
             key={`experienceCard-${index}`} index={index} {...experienceCard} // Fix the prop name
           />

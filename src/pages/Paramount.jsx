@@ -11,9 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const Paramount = () => {
   return (
     <>
-      <div className='mt-20 flex flex-wrap gap-10'>
-        Portfolio Page
-      </div>
+      <div className="flex justify-center items-center text-black text-[50px] font-bold pt-20 pb-10">Paramount</div>
     </>
   );
 };
