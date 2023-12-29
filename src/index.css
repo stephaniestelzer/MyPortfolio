@@ -204,6 +204,11 @@
   transform: translateZ(0);
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

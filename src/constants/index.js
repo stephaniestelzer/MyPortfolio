@@ -178,19 +178,19 @@ const experienceCards = [
     link: "/paramount",
     techStack: [
       {
-        name: "maya",
+        name: "Maya",
         icon: maya,
       },
       {
-        name: "usd",
+        name: "USD",
         icon: usd,
       },
       {
-        name: "python",
+        name: "Python",
         icon: python,
       },
       {
-        name: "jira",
+        name: "Jira",
         icon: jira,
       },
     ],
@@ -203,31 +203,31 @@ const experienceCards = [
     link: "/theAgency",
     techStack: [
       {
-        name: "monday",
+        name: "Monday.com",
         icon: monday,
       },
       {
-        name: "html",
+        name: "HTML",
         icon: html,
       },
       {
-        name: "css",
+        name: "CSS",
         icon: css,
       },
       {
-        name: "react",
+        name: "React",
         icon: reactjs,
       },
       {
-        name: "mongoDB",
+        name: "MongoDB",
         icon: mongodb,
       },
       {
-        name: "javascript",
+        name: "JavaScript",
         icon: javascript,
       },
       {
-        name: "figma",
+        name: "Figma",
         icon: figma,
       },
     ],
@@ -240,19 +240,19 @@ const experienceCards = [
     link: "/target",
     techStack: [
       {
-        name: "docker",
+        name: "Docker",
         icon: docker,
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         icon: mongodb,
       },
       {
-        name: "jira",
+        name: "Jira",
         icon: jira,
       },
       {
-        name: "kotlin",
+        name: "Kotlin",
         icon: kotlin,
       },
     ],
@@ -346,7 +346,7 @@ const projects = [
   {
     name: "Gator Gulf Energy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Florida Hacks With IBM - First Place Winner.",
     tags: [
       {
         name: "Figma",

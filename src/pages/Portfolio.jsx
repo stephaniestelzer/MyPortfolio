@@ -1,20 +1,32 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { projects } from "../constants";
+
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-
-import Works from "../components/Works";
-
+import ProjectCard  from "../utils/ProjectCard"
 
 const Portfolio = () => {
   return (
     <>
-      <div className='mt-20 flex flex-wrap gap-10'>
-        <Works />
+      <motion.div variants={textVariant()}>
+        <h2 className={`${styles.sectionHeadText}`}>Portfolio</h2>
+      </motion.div>
+
+      <div className='w-full flex'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+        </motion.p>
+      </div>
+
+      <div className='mt-20 flex flex-wrap gap-7'>
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
       </div>
     </>
   );
