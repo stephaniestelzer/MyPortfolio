@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import target from "../assets/company/target.svg"
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
@@ -10,12 +10,17 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 const Target = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
+  
   return (
     <>
       <div className="flex flex-col items-center">
         <div className="text-black text-[50px] font-bold pt-20 pb-2">Target</div>
         <div className="position-title blue-text-gradient pb-10">Software Engineering Intern</div>
-        <div className="grid grid-cols-2 md:grid-rows-2 content-center items-baseline gap-8">
+        <div className="grid grid-cols-4 place md:grid-rows-2 content-center items-baseline gap-8 pl-12">
           <div><span className="font-bold">Role: </span> Back-End Engineer </div>
           <div><span className="font-bold">Duration: </span> 10 Weeks </div>
           <div><span className="font-bold">Technologies: </span> Kotlin (Java), Micronaut, MongoDB, Docker </div>

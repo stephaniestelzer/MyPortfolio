@@ -12,7 +12,6 @@ const TheAgency = () => {
   return (
     <>
       <div className="flex justify-center items-center text-black text-[50px] font-bold pt-20 pb-10">The Agency at UF</div>
-
     </>
   );
 };

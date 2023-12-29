@@ -26,6 +26,12 @@ import {
   paramount,
   target,
   theAgency,
+  RiggingStudyImg,
+  Parkourimg,
+  FireGraphic,
+  ufIBM,
+  glRobotImg,
+  polarDashImg,
 } from "../assets";
 
 export const navLinks = [
@@ -283,67 +289,127 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Parkour Animation Blocking",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Maya",
+        color: "bg-cyan-500",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "3D",
+        color: "bg-red-400",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Parkourimg,
+    source_code_link: "/parkourAnimation",
   },
   {
-    name: "Job IT",
+    name: "Rigging Study",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Maya",
+        color: "bg-cyan-500",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "3D",
+        color: "bg-red-400",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: RiggingStudyImg,
+    source_code_link: "/riggingStudy",
   },
   {
-    name: "Trip Guide",
+    name: "Fire Starter",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Houdini",
+        color: "bg-orange-500",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Python",
+        color: "bg-blue-500",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Qt",
+        color: "bg-green-500",
+      },
+    ],
+    image: FireGraphic,
+    source_code_link: "/fireStarter",
+  },
+  {
+    name: "Gator Gulf Energy",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "Figma",
+        color: "bg-pink-500",
+      },
+      {
+        name: "React",
+        color: "bg-purple-500",
+      },
+      {
+        name: "Maya",
+        color: "bg-cyan-500",
+      },
+    ],
+    image: ufIBM,
+    source_code_link: "/gulfEnergy",
+  },
+  {
+    name: "OpenGL Robot",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "C++",
+        color: "bg-indigo-500",
+      },
+    ],
+    image: glRobotImg,
+    source_code_link: "/glRobot",
+  },
+  {
+    name: "Popsicle's Polar Dash",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "Unity",
+        color: "bg-zinc-800",
+      },
+    ],
+    image: polarDashImg,
+    source_code_link: "/polarDash",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "React",
+        color: "bg-purple-500",
+      },
+      {
+        name: "TailwindCSS",
+        color: "bg-sky-500",
+      },
+      {
+        name: "Figma",
+        color: "bg-pink-500",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "/portfolioProject",
   },
 ];
 

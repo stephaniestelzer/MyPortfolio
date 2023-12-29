@@ -34,6 +34,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import RiggingStudyImg from './RiggingStudyImg.png'
+import Parkourimg from './Parkourimg.png'
+import FireGraphic from './FireGraphic.png'
+import ufIBM from './ufIBM.png'
+import glRobotImg from './glRobotImg.png'
+import polarDashImg from './polarDashImg.png'
+
 export {
   logo,
   creator,
@@ -67,4 +74,10 @@ export {
   target,
   theAgency,
   Headshot,
+  RiggingStudyImg,
+  Parkourimg,
+  FireGraphic,
+  ufIBM,
+  glRobotImg,
+  polarDashImg,
 };

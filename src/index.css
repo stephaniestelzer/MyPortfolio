@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   color-scheme: light;
 }
 
@@ -17,6 +17,12 @@
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
+}
+
+.horizontal-text-gradient {
+  background: linear-gradient(243deg, #FCB076 2%, #FB543A 87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .black-gradient {
@@ -173,6 +179,17 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+}
+
+.tech-tag {
+  font-size: .65rem;
+  padding: 1px 7px;
+  margin-right: 5px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
 }
 
 /* canvas- styles */
