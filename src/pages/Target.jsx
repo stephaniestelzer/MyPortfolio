@@ -24,7 +24,7 @@ const Target = () => {
           <div><span className="font-bold">Role: </span> Back-End Engineer </div>
           <div><span className="font-bold">Duration: </span> 10 Weeks </div>
           <div><span className="font-bold">Technologies: </span> Kotlin (Java), Micronaut, MongoDB, Docker </div>
-          <div><span className="font-bold">Team Size: </span> 15 </div>
+          <div><span className="font-bold">Team Size: </span> 11 </div>
         </div>
       </ div>
       <div className="place-self-auto">
@@ -37,7 +37,9 @@ const Target = () => {
             <div className="object-contain">
               <img  className="float-right" src={target} />
             </div>
-            In the summer of 2022, I worked as a Software Engineering Intern on the Acorn team at Target Tech. Our product was called <span className="text-red-500 font-semibold">Acorn</span> because it was a set of front-end and back-end tools that was used throughout different applications across the business. The idea was that “something big could grow from something small”.
+            In the summer of 2022, I worked as a Software Engineering Intern on the Acorn team at Target Tech. Our product was called <span className="text-red-500 font-semibold">Acorn</span> because it was a set of tools and components that 
+            were used as building blocks for applications across the business. 
+            The idea was that “something big could grow from something small”.
           </div>
           <br />
           <div>
@@ -50,12 +52,12 @@ const Target = () => {
           <br />
           <div className="text-base">
             <span className="font-bold blue-text-gradient">The Problem: </span> Because our tools were used across the business, if a bug was released to production, it could have detrimental consequences to enterprise applications.
-            Our project aimed to address this issue by logging changes made to our tools, enabling us to quickly find and address bugs released to production.
+            Our project aimed to address this issue by logging changes made to Acorn, enabling us to quickly find and address bugs released to production.
           </div>
           <br />
           <div>
-            <span className="font-bold blue-text-gradient">The Solution: </span>Our team of interns was tasked with creating a RESTful/CRUD API that would track changes that other software engineers make to Acorn Settings – 
-            which is a broad framework that the Target Enterprise uses across its various applications, but most famously “MyDay”, the application that retail workers use to restock shelves. 
+            <span className="font-bold blue-text-gradient">Our Action: </span>Myself and two other interns were tasked with creating a RESTful/CRUD API that would track changes that other software engineers made to Acorn Settings – 
+            which is a broad framework that the Target Enterprise uses across its various applications, but most significantly “MyDay”, the application that retail workers use to restock shelves. 
             We were to build a microservice using Micronaut, Kotlin, MongoDB, and Docker.
           </div>
           <br />
@@ -73,12 +75,18 @@ const Target = () => {
             Impact
           </div>
           <br />
+          <div>
+            At the beginning of my internship, my manager told us that he wanted to integrate this system into other applications,
+            so we developed with scalability in mind. We built our application for Acorn settings, but since the completion of our project, the
+            system has been integrated into other Acorn applications.
+          </div>
+          <br />
           <div className="company-title">
             Learnings
           </div>
           <br />
           <div>
-            Prior to this experience
+            I came away from this experience
           </div>
         </div>
     </>
