@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -7,6 +7,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 import {Headshot} from "../assets";
 
 const About = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div>
       <div className="flex justify-center items-center text-black text-[50px] font-bold pb-10">About Me</div>

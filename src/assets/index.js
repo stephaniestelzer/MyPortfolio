@@ -42,6 +42,9 @@ import glRobotImg from './glRobotImg.png'
 import polarDashImg from './polarDashImg.png'
 import terrarium from './terrarium.png'
 
+import A3PlanningDoc from './A3PlanningDoc.png'
+import Stelzer_Stephanie_A4_Ref from './Stelzer_Stephanie_A4_Ref.mp4'
+
 export {
   logo,
   creator,
@@ -82,4 +85,6 @@ export {
   glRobotImg,
   polarDashImg,
   terrarium,
+  A3PlanningDoc,
+  Stelzer_Stephanie_A4_Ref,
 };

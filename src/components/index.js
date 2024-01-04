@@ -12,6 +12,8 @@ import Experience2 from './Experience2';
 import TechIcon from './TechIcon';
 import Footer from './Footer';
 
+import VimeoEmbed from '../utils/VimeoEmbed';
+
 
 export {
   Hero,
@@ -30,4 +32,5 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Footer,
+  VimeoEmbed,
 };
