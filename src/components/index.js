@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Experience2 from './Experience2';
 import TechIcon from './TechIcon';
+import Footer from './Footer';
 
 
 export {
@@ -27,5 +28,6 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Footer,
 };

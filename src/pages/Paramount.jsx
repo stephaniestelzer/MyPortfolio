@@ -13,8 +13,7 @@ const Paramount = () => {
   <>
     <div className="flex flex-col items-center">
       <div className="text-black text-[50px] font-bold pt-20 pb-2">Paramount Animation</div>
-      <div className="position-title blue-text-gradient pb-5">Technical Director Intern</div>
-      <div className="section-title pink-text-gradient pb-10">building technology to support story conceptualization</div>
+      <div className="position-title blue-text-gradient pb-10">Technical Director Intern</div>
       <div className="grid grid-cols-4 place md:grid-rows-2 content-center items-baseline gap-8 pl-12">
         <div><span className="font-bold">Role: </span> Pre-visualization Technical Director </div>
         <div><span className="font-bold">Timeline: </span>  June-August & September-November 2023 (20 weeks) </div>
@@ -34,7 +33,7 @@ const Paramount = () => {
           In the summer & fall of 2023, I worked as a Technical Director Intern at Paramount Animation, assisting in the production of the studio’s upcoming animated feature films.        </div>
         <br />
         <div>
-        For my first internship (June - August), my work consisted of familiarizing myself with Previsualization Pipelines, 
+        For my first internship (June - August), my work consisted of familiarizing myself with the Previsualization Pipeline, 
         collaborating with closely with Previs & Layout Artists to gain an understanding of their workflow and tools, 
         and diving into tool development and enhancement.        
         </div>

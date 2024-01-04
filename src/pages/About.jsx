@@ -8,7 +8,7 @@ import {Headshot} from "../assets";
 
 const About = () => {
   return (
-    <>
+    <div>
       <div className="flex justify-center items-center text-black text-[50px] font-bold pb-10">About Me</div>
       <div className="grid grid-cols-2 gap-4 w-full py-8">
         <motion.div variants={textVariant()} className="flex items-center justify-center">
@@ -54,10 +54,9 @@ const About = () => {
           <p>
             I have a deep desire to use both art and technology to create meaningful experiences, and I strive to bring this passion into everything I do.
           </p>
-
         </motion.div>
       </div>
-    </>
+    </div>
   );
 };
 

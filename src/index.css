@@ -192,6 +192,17 @@
   align-items: center;
 }
 
+.footer-gradient-text {
+  background: linear-gradient(243deg, #FB543A 65%, #FCB076 97%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

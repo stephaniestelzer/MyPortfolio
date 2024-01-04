@@ -40,6 +40,7 @@ import FireGraphic from './FireGraphic.png'
 import ufIBM from './ufIBM.png'
 import glRobotImg from './glRobotImg.png'
 import polarDashImg from './polarDashImg.png'
+import terrarium from './terrarium.png'
 
 export {
   logo,
@@ -80,4 +81,5 @@ export {
   ufIBM,
   glRobotImg,
   polarDashImg,
+  terrarium,
 };

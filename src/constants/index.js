@@ -32,6 +32,7 @@ import {
   ufIBM,
   glRobotImg,
   polarDashImg,
+  terrarium,
 } from "../assets";
 
 export const navLinks = [
@@ -194,7 +195,7 @@ const experienceCards = [
         icon: jira,
       },
     ],
-    description: "Created tools for artists and helped to develop an efficient and organized production pipeline.",
+    description: "worked alongside Technical Directors and artists to develop an efficient and organized production pipeline.",
   },
   {
     companyName: "The Agency at UF",
@@ -231,7 +232,7 @@ const experienceCards = [
         icon: figma,
       },
     ],
-    description: "Collaborated with an interdisciplinary team to make creative ideas come to life.",
+    description: "collaborated with an interdisciplinary team to enable creative ideas to come to life.",
   },
   {
     companyName: "Target",
@@ -256,7 +257,7 @@ const experienceCards = [
         icon: kotlin,
       },
     ],
-    description: "Built a microservice that logged changes within internal target software.",
+    description: "built a microservice that logged changes within internal enterprise software.",
   },
 ];
 
@@ -291,7 +292,7 @@ const projects = [
   {
     name: "Parkour Animation Blocking",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Switching between IK and FK to create blocking for a body mechanics shot.",
     tags: [
       {
         name: "Maya",
@@ -306,9 +307,26 @@ const projects = [
     source_code_link: "/parkourAnimation",
   },
   {
+    name: "Terrarium",
+    description:
+      "Floating 3D terrarium, modeled parametrically in Cinema4D.",
+    tags: [
+      {
+        name: "Cinema4D",
+        color: "bg-blue-800",
+      },
+      {
+        name: "3D",
+        color: "bg-red-400",
+      },
+    ],
+    image: terrarium,
+    source_code_link: "/parkourAnimation",
+  },
+  {
     name: "Rigging Study",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Individual course of study conducted with an animation lecturer at the Digital Worlds Institute at the University of Florida. Topics covered included model/mesh cleaning, auto rigging systems, joint placement, weight-painting, blend shapes.",
     tags: [
       {
         name: "Maya",
@@ -325,7 +343,7 @@ const projects = [
   {
     name: "Fire Starter",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Houdini tool that simplifies the process of creating fire simulations.",
     tags: [
       {
         name: "Houdini",
@@ -346,7 +364,7 @@ const projects = [
   {
     name: "Gator Gulf Energy",
     description:
-      "Florida Hacks With IBM - First Place Winner.",
+      "A proposal for using tidal power as a renewable energy resource. Florida Hacks With IBM - First Place Winner.",
     tags: [
       {
         name: "Figma",
@@ -367,7 +385,7 @@ const projects = [
   {
     name: "OpenGL Robot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Created using OpenGL and C++. Concepts explored include Vertex Buffer/Array Objects, hierarchy set-up, and transformation matrices.",
     tags: [
       {
         name: "C++",
@@ -380,7 +398,7 @@ const projects = [
   {
     name: "Popsicle's Polar Dash",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Help popsicle the penguin collect snowflakes to lower the temperature of his environment and restore the winter wonderland!",
     tags: [
       {
         name: "Unity",
@@ -393,7 +411,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My digital scrapbook.",
     tags: [
       {
         name: "React",

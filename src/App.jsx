@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { Navbar, StarsCanvas, Experience2 } from "./components";
+import { Navbar, Footer, StarsCanvas, Experience2 } from "./components";
 
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Paramount from "./pages/Paramount";
 import Target from './pages/Target';
 import TheAgency from './pages/TheAgency';
-import Portfolio from './pages/Portfolio'
+import Portfolio from './pages/Portfolio';
 
 import ParkourAnimation from './pages/projects/ParkourAnimation';
 import FireStarter from './pages/projects/FireStarter';
@@ -40,6 +40,7 @@ const App = () => {
       <div className='relative z-0 bg-primary'>
         <div>
           <Navbar />
+          <Footer />
         </div>
       </div>
     </Router>
