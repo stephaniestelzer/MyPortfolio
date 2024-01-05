@@ -8,7 +8,6 @@ import { Stelzer_Stephanie_A4_Ref } from "../../assets";
 
 const ParkourAnimation = () => {
   useEffect(() => {
-    // Scroll to the top of the page when the component mounts
     window.scrollTo(0, 0);
   }, []); 
   return (
@@ -24,15 +23,15 @@ const ParkourAnimation = () => {
       </div>      
       <div className="grid grid-cols gap-4 w-full">
         <br />
-        <div className="text-black text-[20px] font-medium pb-2">Final</div>
+        <div className="text-black text-[30px] font-medium pb-2">Final</div>
         <VimeoEmbed videoId={828404878} />
         <br />
-        <div className="text-black text-[20px] font-medium pb-2">Planning Sheet</div>
+        <div className="text-black text-[30px] font-medium pb-2">Planning Sheet</div>
         <div className="w-3/4 h-auto">
           <img src={A3PlanningDoc} className="w-full h-full object-cover"/>
         </div>
         <br />
-        <div className="text-black text-[20px] font-medium pb-2">Reference</div>
+        <div className="text-black text-[30px] font-medium pb-2">Reference</div>
         <div>
           <video controls width="640" height="360">
             <source src={Stelzer_Stephanie_A4_Ref} type="video/mp4" />
@@ -40,7 +39,7 @@ const ParkourAnimation = () => {
           </video>
         </div>
         <br />
-        <div className="text-black text-[20px] font-medium ">Learnings</div>
+        <div className="text-black text-[30px] font-medium ">Learnings</div>
         <div>
             <ul className="list-disc pl-8">
               <li>The fundamentals of the bouncing ball exercise and principle of squash and stretch are imperative to creating realistic motion. These principles create buoancy and keep the character's movement from becoming floaty and weightless.</li>

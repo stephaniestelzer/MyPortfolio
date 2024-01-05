@@ -16,6 +16,7 @@ import GulfEnergy from './pages/projects/GulfEnergy';
 import PolarDash from './pages/projects/PolarDash';
 import PortfolioProject from './pages/projects/PortfolioProject';
 import RiggingStudy from './pages/projects/RiggingStudy'
+import Terrarium from './pages/projects/Terrarium';
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='/polarDash' element={<PolarDash />}/>
         <Route path='/portfolioProject' element={<PortfolioProject />}/>
         <Route path='/riggingStudy' element={<RiggingStudy />}/>
+        <Route path='/Terrarium' element={<Terrarium />}/>
       </Routes>
       <div className='relative z-0 bg-primary'>
         <div>

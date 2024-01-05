@@ -192,6 +192,11 @@
   align-items: center;
 }
 
+.img-carousel {
+
+  object-fit: cover;
+}
+
 .footer-gradient-text {
   background: linear-gradient(243deg, #FB543A 65%, #FCB076 97%);
   -webkit-background-clip: text;

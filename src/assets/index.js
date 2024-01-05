@@ -45,6 +45,16 @@ import terrarium from './terrarium.png'
 import A3PlanningDoc from './A3PlanningDoc.png'
 import Stelzer_Stephanie_A4_Ref from './Stelzer_Stephanie_A4_Ref.mp4'
 
+import Stelzer_Stephanie_Render_01 from './TerrariumImages/Stelzer_Stephanie_Render_01.png'
+import Stelzer_Stephanie_Render_02 from './TerrariumImages/Stelzer_Stephanie_Render_02.png'
+import Stelzer_Stephanie_Render_03 from './TerrariumImages/Stelzer_Stephanie_Render_03.png'
+
+import GardenArch_Reference from './TerrariumImages/GardenArch_Reference.jpg'
+import GardenBench_Reference from './TerrariumImages/GardenBench_Reference.jpg'
+import Succulent_FlowerPot_Reference from './TerrariumImages/Succulent_FlowerPot_Reference.jpg'
+import SucculentFountain_Reference from './TerrariumImages/SucculentFountain_Reference.jpg'
+import Garden_Shed_Reference from './TerrariumImages/Garden_Shed_Reference.jpg'
+
 export {
   logo,
   creator,
@@ -87,4 +97,12 @@ export {
   terrarium,
   A3PlanningDoc,
   Stelzer_Stephanie_A4_Ref,
+  GardenArch_Reference,
+  GardenBench_Reference,
+  Garden_Shed_Reference,
+  Succulent_FlowerPot_Reference,
+  SucculentFountain_Reference,
+  Stelzer_Stephanie_Render_01,
+  Stelzer_Stephanie_Render_02,
+  Stelzer_Stephanie_Render_03,
 };

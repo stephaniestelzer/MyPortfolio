@@ -33,6 +33,14 @@ import {
   glRobotImg,
   polarDashImg,
   terrarium,
+  Stelzer_Stephanie_Render_01,
+  Stelzer_Stephanie_Render_02,
+  Stelzer_Stephanie_Render_03,
+  GardenArch_Reference,
+  Garden_Shed_Reference,
+  GardenBench_Reference,
+  SucculentFountain_Reference,
+  Succulent_FlowerPot_Reference,
 } from "../assets";
 
 export const navLinks = [
@@ -288,6 +296,24 @@ const testimonials = [
   },
 ];
 
+const TerrariumReference = [
+  {
+    image: GardenArch_Reference,
+  },
+  {
+    image: Garden_Shed_Reference,
+  },
+  {
+    image: GardenBench_Reference,
+  },
+  {
+    image: SucculentFountain_Reference,
+  },
+  {
+    image: Succulent_FlowerPot_Reference,
+  }
+]
+
 const projects = [
   {
     name: "Parkour Animation Blocking",
@@ -321,7 +347,7 @@ const projects = [
       },
     ],
     image: terrarium,
-    source_code_link: "/parkourAnimation",
+    source_code_link: "/Terrarium",
   },
   {
     name: "Rigging Study",
@@ -431,4 +457,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, experienceCards };
+export { services, technologies, experiences, testimonials, projects, experienceCards, TerrariumReference };
