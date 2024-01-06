@@ -352,7 +352,7 @@ const projects = [
   {
     name: "Rigging Study",
     description:
-      "Individual course of study conducted with an animation lecturer at the Digital Worlds Institute at the University of Florida. Topics covered included model/mesh cleaning, auto rigging systems, joint placement, weight-painting, blend shapes.",
+      "Individual course of study conducted with an animation instructor at the Digital Worlds Institute at the University of Florida. Topics covered included model/mesh cleaning, auto rigging systems, joint placement, weight-painting, blend shapes.",
     tags: [
       {
         name: "Maya",

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -9,6 +9,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 import ProjectCard  from "../utils/ProjectCard"
 
 const Portfolio = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <>
       <motion.div variants={textVariant()}>
