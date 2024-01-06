@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { Navbar, Footer, StarsCanvas, Experience2 } from "./components";
+import { Navbar, Footer, Experience2 } from "./components";
 
 import About from "./pages/About";
 import Home from "./pages/Home";
