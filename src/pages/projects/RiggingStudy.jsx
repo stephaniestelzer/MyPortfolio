@@ -28,14 +28,14 @@ const RiggingStudy = () => {
         <div className="text-black text-[30px] font-medium pb-2">Blend Shapes</div>
         <VimeoEmbed videoId={899997320} />
         <br />
-        <div className="text-black text-[30px] font-medium ">Learnings</div>
+        {/* <div className="text-black text-[30px] font-medium ">Learnings</div>
         <div>
             <ul className="list-disc pl-8">
               <li>The fundamentals of the bouncing ball exercise and principle of squash and stretch are imperative to creating realistic motion. These principles create buoancy and keep the character's movement from becoming floaty and weightless.</li>
               <li>Planning the keyframes of your shot and your IK / FK switches is imperative. Do not rush into Maya. </li>
               <li>Pay attention to how you are setting keyframes on the rig. Failing to key poses properly will result in difficulties further into animation. </li>
             </ul>
-          </div>
+          </div> */}
       </div>
     </ div>
   );

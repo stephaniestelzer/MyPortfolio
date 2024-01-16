@@ -30,8 +30,18 @@ const Terrarium = () => {
   return (
     <div className="flex flex-col items-left">
       <div className="text-black text-[30px] font-bold pt-20 pb-2">Terrarium</div>
-      <p className="pb-5">In my Advanced 3D Animation course, I was tasked with creating a parkour animation. 
-      The goal of the project was to learn the fundamentals of body mechanics and to practice IK/FK switching.
+      <p className="pb-5">The prompt for this project was to create a "Floating World" that could be held in one's hand. I immediately thought of the decorative terrariums commonly placed on desks. 
+      For my project, I imagined that a whole different world existed within one of these small terrariums. 
+      My terrarium would be the home of a dedicated gardener who took great joy in his craft.
+      </p>
+      <p className="pb-5">
+      The world is designed to illustrate that the garden is "in-progress," showcasing the gardener's work before its completion. The shed is open, tools lay awry, 
+      and the plants aren’t fully embedded in the soil, creating an atmosphere of continuous progress. 
+      The winding path and bench provide a place for the gardener to sit and appreciate his environment. 
+      The hole in the center of the jar invites viewers into the world and to join the gardener in his work.
+      </p>
+      <p className="pb-5">
+        Throughout the development of this project, I learned about parametric modeling, world-building, and using deformers in Cinema4D.
       </p>
       <div className="grid grid-cols-4 place md:grid-rows-1 justify-left items-baseline gap-8">
         <div><span className="font-bold">Project Deliverable: </span> Turntable Video, Rendered Images</div>
@@ -60,14 +70,14 @@ const Terrarium = () => {
                 <img src={Succulent_FlowerPot_Reference} className="img-carousel"/>
             </AliceCarousel>
         </div>
-        <div className="text-black text-[30px] font-medium ">Learnings</div>
+        {/* <div className="text-black text-[30px] font-medium ">Learnings</div>
         <div>
             <ul className="list-disc pl-8">
                 <li>The fundamentals of the bouncing ball exercise and principle of squash and stretch are imperative to creating realistic motion. These principles create buoancy and keep the character's movement from becoming floaty and weightless.</li>
                 <li>Planning the keyframes of your shot and your IK / FK switches is imperative. Do not rush into Maya. </li>
                 <li>Pay attention to how you are setting keyframes on the rig. Failing to key poses properly will result in difficulties further into animation. </li>
             </ul>
-        </div>
+        </div> */}
     </ div>
   );
 };

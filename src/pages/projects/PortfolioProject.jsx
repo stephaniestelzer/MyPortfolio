@@ -11,7 +11,9 @@ const PortfolioProject = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center text-black text-[50px] font-bold pt-20 pb-10">Paramount</div>
+      <div className="flex justify-center items-center pt-20 pb-10">
+        <div className="grid-cols-1">In the process of documenting this project. Coming soon.</div>
+      </div>
     </>
   );
 };

@@ -14,7 +14,7 @@ const ParkourAnimation = () => {
     <div className="flex flex-col items-left">
       <div className="text-black text-[30px] font-bold pt-20 pb-2">Parkour Blocking Animation</div>
       <p className="pb-5">In my Advanced 3D Animation course, I was tasked with creating a parkour animation. 
-      The goal of the project was to learn the fundamentals of body mechanics and to practice IK/FK switching.
+      The goal of the project was to learn the fundamentals of body mechanics and to practice switching between IK and FK.
       </p>
       <div className="grid grid-cols-4 place md:grid-rows-1 justify-left items-baseline gap-8">
         <div><span className="font-bold">Project Deliverable: </span> Blocking Playblast, Pose Planning Sheet </div>
@@ -42,9 +42,8 @@ const ParkourAnimation = () => {
         <div className="text-black text-[30px] font-medium ">Learnings</div>
         <div>
             <ul className="list-disc pl-8">
-              <li>The fundamentals of the bouncing ball exercise and principle of squash and stretch are imperative to creating realistic motion. These principles create buoancy and keep the character's movement from becoming floaty and weightless.</li>
-              <li>Planning the keyframes of your shot and your IK / FK switches is imperative. Do not rush into Maya. </li>
-              <li>Pay attention to how you are setting keyframes on the rig. Failing to key poses properly will result in difficulties further into animation. </li>
+              <li>The fundamentals of the bouncing ball exercise and principle of squash and stretch are imperative to creating realistic motion. These principles create buoyancy and keep the character's movement from appearing floaty and weightless.</li>
+              <li> Rushing into Maya will hurt the quality of your animation. Be sure to carefully plan out your IK and FK switches. </li>
             </ul>
           </div>
       </div>
