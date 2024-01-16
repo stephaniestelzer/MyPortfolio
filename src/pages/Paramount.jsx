@@ -48,7 +48,7 @@ const Paramount = () => {
         </div>
         <br />
         <div className="company-title">
-          Pre-Visualization Pipeline
+          Previsualization Pipeline
         </div>
         <br />
         <div className="text-base">
