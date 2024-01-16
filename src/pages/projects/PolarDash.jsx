@@ -20,7 +20,7 @@ const PolarDash = () => {
         <div ><a className="font-bold underline" href="https://github.com/stephaniestelzer/Line14"> GitHub→ </a> </div>
       </div>
       <br />
-      {/* <YouTubeVideo videoId={bhd922nXctQ} /> */}
+      <YouTubeVideo videoId={bhd922nXctQ} />
       </div>
     </>
   );

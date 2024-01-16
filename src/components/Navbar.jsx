@@ -51,7 +51,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="mailto:stephanie@stelzers.com">
               <MdMailOutline fill="black" size={"2em"}/>
             </a>
           </li>
