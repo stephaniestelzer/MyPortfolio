@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link } from 'react-router-dom';
 import { GoArrowRight } from "react-icons/go";
 import { motion } from "framer-motion";
@@ -20,6 +20,10 @@ const ExperienceCard = ( {
   techStack,
   description,
 } ) => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <motion.div variants={fadeIn()} className="grid grid-cols-2 gap-4 w-full py-8">
       <div>

@@ -203,7 +203,7 @@ const experienceCards = [
         icon: jira,
       },
     ],
-    description: "Worked alongside Technical Directors and artists to develop an efficient and organized production pipeline.",
+    description: "Worked alongside technical directors and artists to develop an efficient and organized production pipeline.",
   },
   {
     companyName: "The Agency at UF",
@@ -316,6 +316,27 @@ const TerrariumReference = [
 
 const projects = [
   {
+    name: "Fire Starter",
+    description:
+      "A Houdini tool that simplifies the process of creating fire simulations.",
+    tags: [
+      {
+        name: "Houdini",
+        color: "bg-orange-500",
+      },
+      {
+        name: "Python",
+        color: "bg-blue-500",
+      },
+      {
+        name: "Qt",
+        color: "bg-green-500",
+      },
+    ],
+    image: FireGraphic,
+    source_code_link: "/fireStarter",
+  },
+  {
     name: "Parkour Animation Blocking",
     description:
       "Switching between IK and FK to create blocking for a body mechanics shot.",
@@ -365,27 +386,6 @@ const projects = [
     ],
     image: RiggingStudyImg,
     source_code_link: "/riggingStudy",
-  },
-  {
-    name: "Fire Starter",
-    description:
-      "A Houdini tool that simplifies the process of creating fire simulations.",
-    tags: [
-      {
-        name: "Houdini",
-        color: "bg-orange-500",
-      },
-      {
-        name: "Python",
-        color: "bg-blue-500",
-      },
-      {
-        name: "Qt",
-        color: "bg-green-500",
-      },
-    ],
-    image: FireGraphic,
-    source_code_link: "/fireStarter",
   },
   {
     name: "Gator Gulf Energy",
