@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 
 import { SectionWrapper } from "../../hoc"
-import YouTubeVideo from "../../utils/YouTubeEmbed";
+import YouTubeEmbed from "../../utils/YouTubeEmbed";
 
 
 const PolarDash = () => {
@@ -20,7 +20,7 @@ const PolarDash = () => {
         <div ><a className="font-bold underline" href="https://github.com/stephaniestelzer/Line14"> GitHub→ </a> </div>
       </div>
       <br />
-      <YouTubeVideo videoId={bhd922nXctQ} />
+      <YouTubeEmbed videoId="bhd922nXctQ"/>
       </div>
     </>
   );

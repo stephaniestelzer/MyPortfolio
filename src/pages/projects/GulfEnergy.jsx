@@ -32,7 +32,7 @@ const GulfEnergy = () => {
         We propose to begin harnessing the power of the Florida Gulf Stream as a reliable and continuous source of clean power. Our project goal is to assess the extent to which tidal power can holistically impact Florida's energy portfolio.
         </div>
         <br />
-        <YouTubeEmbed videoId={WD_bB5OMNoQ} />
+        <YouTubeEmbed videoId="WD_bB5OMNoQ"/>
       </div>
       <br />
     </ div>

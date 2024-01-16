@@ -52,7 +52,7 @@ const FireStarter = () => {
       </div> 
       <br />
       <div className="position-title font-bold pb-2">Final Presentation</div>
-      <YouTubeEmbed videoId={Nqutjmodq_M} />
+      <YouTubeEmbed videoId="Nqutjmodq_M" />
       <br />
     </ div>
   );
