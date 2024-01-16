@@ -31,11 +31,11 @@ const Terrarium = () => {
     <div className="flex flex-col items-left">
       <div className="text-black text-[30px] font-bold pt-20 pb-2">Terrarium</div>
       <p className="pb-5">The prompt for this project was to create a "Floating World" that could be held in one's hand. I immediately thought of the decorative terrariums commonly placed on desks. 
-      For my project, I imagined that a whole different world existed within one of these small terrariums. 
+      For my project, I imagined that a whole different world existed within one of these small glass jars. 
       My terrarium would be the home of a dedicated gardener who took great joy in his craft.
       </p>
       <p className="pb-5">
-      The world is designed to illustrate that the garden is "in-progress," showcasing the gardener's work before its completion. The shed is open, tools lay awry, 
+      The world is designed to be "in-progress," showcasing the gardener's work before its completion. The shed is open, tools lay awry, 
       and the plants aren’t fully embedded in the soil, creating an atmosphere of continuous progress. 
       The winding path and bench provide a place for the gardener to sit and appreciate his environment. 
       The hole in the center of the jar invites viewers into the world and to join the gardener in his work.

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -9,25 +9,31 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 const TheAgency = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <>
       <div className="flex flex-col items-center">
         <div className="text-black text-[50px] font-bold pt-20 pb-2">The Agency</div>
         <div className="position-title blue-text-gradient pb-10">Led by professionals. Staffed by students. Inspired by faculty.</div>
-        <div className="grid grid-cols-4 place md:grid-rows-2 content-center items-baseline gap-8 pl-12">
+        <div className="place-self-auto">In the process of documenting my work in this role. Coming soon.</div>
+        <br />
+        {/* <div className="grid grid-cols-4 place md:grid-rows-2 content-center items-baseline gap-8 pl-12">
           <div><span className="font-bold">Role: </span> Full-Stack Developer & Department Manager </div>
           <div><span className="font-bold">Organization Size: </span> 70+ </div>
-        </div>
+        </div> */}
       </ div>
-      <div className="place-self-auto">
+      {/* <div className="place-self-auto">
           <br />
           <div className="company-title">
             Overview
           </div>
           <br />
           <div className="text-base">
-            Upon joining UF's Digital Arts and Sciences program, my aspiration was always to contribute as a developer in a collaborative, interdisciplinary team. 
-            When the opportunity arose to work at the Agency, the University of Florida's in-house creative advertising studio, I was excited to dive into this passion.
+            I chose Digital Arts and Sciences Engineering as my major because I have aspired to contribute as a developer in a collaborative, interdisciplinary team. 
+            When the opportunity arose to work at the Agency, the University of Florida's in-house creative advertising studio, I was excited to have the opportunity dive into this passion.
           </div>
           <br />
           <div>
@@ -83,8 +89,8 @@ const TheAgency = () => {
           <br />
           <div>
             I came away from this experience
-          </div>
-        </div>    
+          </div> */}
+        {/* </div>     */}
     </>
   );
 };

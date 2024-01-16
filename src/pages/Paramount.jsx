@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -9,6 +9,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 const Paramount = () => {
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
   <>
     <div className="flex flex-col items-center">
@@ -82,9 +86,9 @@ const Paramount = () => {
         with artists to understand how the integration of USD into the pipeline would affect their workflow.
         </div>
         <br />
-        <div className="company-title">
+        {/* <div className="company-title">
           Learnings
-        </div>
+        </div> */}
         <br />
       </div>
     </>

@@ -203,7 +203,7 @@ const experienceCards = [
         icon: jira,
       },
     ],
-    description: "worked alongside Technical Directors and artists to develop an efficient and organized production pipeline.",
+    description: "Worked alongside Technical Directors and artists to develop an efficient and organized production pipeline.",
   },
   {
     companyName: "The Agency at UF",
@@ -240,7 +240,7 @@ const experienceCards = [
         icon: figma,
       },
     ],
-    description: "collaborated with an interdisciplinary team to enable creative ideas to come to life.",
+    description: "Collaborated with an interdisciplinary team to enable creative ideas to come to life.",
   },
   {
     companyName: "Target",
@@ -265,7 +265,7 @@ const experienceCards = [
         icon: kotlin,
       },
     ],
-    description: "built a microservice that logged changes within internal enterprise software.",
+    description: "Built a microservice that logged changes within internal enterprise software.",
   },
 ];
 
@@ -434,27 +434,27 @@ const projects = [
     image: polarDashImg,
     source_code_link: "/polarDash",
   },
-  {
-    name: "Portfolio Website",
-    description:
-      "My digital scrapbook.",
-    tags: [
-      {
-        name: "React",
-        color: "bg-purple-500",
-      },
-      {
-        name: "TailwindCSS",
-        color: "bg-sky-500",
-      },
-      {
-        name: "Figma",
-        color: "bg-pink-500",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "/portfolioProject",
-  },
+  // {
+  //   name: "Portfolio Website",
+  //   description:
+  //     "My digital scrapbook.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "bg-purple-500",
+  //     },
+  //     {
+  //       name: "TailwindCSS",
+  //       color: "bg-sky-500",
+  //     },
+  //     {
+  //       name: "Figma",
+  //       color: "bg-pink-500",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "/portfolioProject",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects, experienceCards, TerrariumReference };

@@ -28,8 +28,8 @@ const About = () => {
           </p>
           <br />
           <p>
-            I am a recent graduate of the University of Florida, where I earned my Bachelor of Science in Digital 
-            Arts and Sciences Engineering. 
+            I am a recent graduate of the University of Florida, where I earned my Bachelor of Science in 
+            <span className="font-bold blue-text-gradient"> Digital Arts and Sciences Engineering</span>.
           </p>
           <br />
           <p>

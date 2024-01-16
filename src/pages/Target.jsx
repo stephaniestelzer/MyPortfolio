@@ -51,7 +51,7 @@ const Target = () => {
           </div>
           <br />
           <div className="text-base">
-            <span className="font-bold blue-text-gradient">The Problem: </span> Because our tools were used across the business, if a bug was released to production, it could have detrimental consequences to enterprise applications.
+            <span className="font-bold blue-text-gradient">The Problem: </span> Because our tools were used across the business, if a bug was released to production, it could grealy affect the functionality of many applications across the enterprise.
             Our project aimed to address this issue by logging changes made to Acorn, enabling us to quickly find and address bugs released to production.
           </div>
           <br />
@@ -81,13 +81,13 @@ const Target = () => {
             system has been integrated into other Acorn applications.
           </div>
           <br />
-          <div className="company-title">
+          {/* <div className="company-title">
             Learnings
           </div>
           <br />
           <div>
             I came away from this experience
-          </div>
+          </div> */}
         </div>
     </>
   );

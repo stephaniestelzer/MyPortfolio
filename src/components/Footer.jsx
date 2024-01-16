@@ -10,7 +10,7 @@ const Footer = () => {
         <p className='text-[14px]'>This site is best viewed on desktop.</p>
         <p className='text-[14px]'>stephanie@stelzers.com</p>
         <p className='text-[14px]'>Made with joy <span>&copy; 2024 Stephanie Stelzer</span></p>
-        <p className='text-[14px]'>Ephesians 2:10</p>
+        {/* <p className='text-[14px]'>Ephesians 2:10</p> */}
       </div>
     </footer>
   );
