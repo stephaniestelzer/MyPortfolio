@@ -17,6 +17,7 @@ import PolarDash from './pages/projects/PolarDash';
 import PortfolioProject from './pages/projects/PortfolioProject';
 import RiggingStudy from './pages/projects/RiggingStudy'
 import Terrarium from './pages/projects/Terrarium';
+import Pixar from './pages/Pixar';
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/portfolioProject' element={<PortfolioProject />}/>
         <Route path='/riggingStudy' element={<RiggingStudy />}/>
         <Route path='/Terrarium' element={<Terrarium />}/>
+        <Route path='/Pixar' element={<Pixar />}/>
       </Routes>
       <div className='relative z-0 bg-primary'>
         <div>

@@ -457,4 +457,92 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects, experienceCards, TerrariumReference };
+const pixarProjects = [
+  {
+    name: "Fire Starter",
+    description:
+      "A Houdini tool that simplifies the process of creating fire simulations.",
+    tags: [
+      {
+        name: "Houdini",
+        color: "bg-orange-500",
+      },
+      {
+        name: "Python",
+        color: "bg-blue-500",
+      },
+      {
+        name: "Qt",
+        color: "bg-green-500",
+      },
+    ],
+    image: FireGraphic,
+    source_code_link: "/fireStarter",
+  },
+  {
+    name: "OpenGL Robot",
+    description:
+      "Created using OpenGL and C++. Concepts explored include Vertex Buffer/Array Objects, hierarchy set-up, and transformation matrices.",
+    tags: [
+      {
+        name: "C++",
+        color: "bg-indigo-500",
+      },
+    ],
+    image: glRobotImg,
+    source_code_link: "/glRobot",
+  },
+  {
+    name: "Parkour Animation Blocking",
+    description:
+      "Switching between IK and FK to create blocking for a body mechanics shot.",
+    tags: [
+      {
+        name: "Maya",
+        color: "bg-cyan-500",
+      },
+      {
+        name: "3D",
+        color: "bg-red-400",
+      },
+    ],
+    image: Parkourimg,
+    source_code_link: "/parkourAnimation",
+  },
+  {
+    name: "Rigging Study",
+    description:
+      "Individual course of study conducted with an animation instructor at the Digital Worlds Institute at the University of Florida. Topics covered included model/mesh cleaning, auto rigging systems, joint placement, weight-painting, blend shapes.",
+    tags: [
+      {
+        name: "Maya",
+        color: "bg-cyan-500",
+      },
+      {
+        name: "3D",
+        color: "bg-red-400",
+      },
+    ],
+    image: RiggingStudyImg,
+    source_code_link: "/riggingStudy",
+  },
+  {
+    name: "Terrarium",
+    description:
+      "Floating 3D terrarium, modeled parametrically in Cinema4D.",
+    tags: [
+      {
+        name: "Cinema4D",
+        color: "bg-blue-800",
+      },
+      {
+        name: "3D",
+        color: "bg-red-400",
+      },
+    ],
+    image: terrarium,
+    source_code_link: "/Terrarium",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects, pixarProjects, experienceCards, TerrariumReference };

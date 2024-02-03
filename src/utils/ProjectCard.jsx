@@ -18,7 +18,7 @@ const ProjectCard = ({
       <div>
         <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
           <div className='relative w-full h-[230px]'>
-            <Link to={source_code_link}>
+            <Link to={source_code_link} target="_blank">
               <img
                 src={image}
                 alt='project_image'
